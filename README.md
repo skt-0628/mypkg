@@ -29,7 +29,7 @@ date: "CPU: 15.2%, Memory: 45.7%"
 
 ### 必要なソフトウェア
 
-- ROS 2
+- ROS 2 foxy
 - Ubuntu 22.04
 - psutilライブラリ（Python）
 
