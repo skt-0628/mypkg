@@ -1,5 +1,7 @@
 # mypkg
 
+listener.pyはテスト用です。
+
 ## System Status ノード
 
 ### 概要
