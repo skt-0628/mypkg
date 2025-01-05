@@ -6,10 +6,10 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 
-source /opt/ros/humble/setup.bash
+source /opt/ros/foxy/setup.bash
 source $dir/ros2_ws/install/setup.bash
 
-timeout 10 ros2 run mypkg system_status > /tmp/mypkg.log 
+timeout 10 ros2 run mypkg system_status > /tmp/mypkg.log
 
 timeout 10 ros2 topic echo /system_status_publisher > /tmp/topic_output.log &
 
