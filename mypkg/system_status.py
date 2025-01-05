@@ -15,7 +15,6 @@ class SystemPublisher(Node):
         self.timer = self.create_timer(5.0, self.publish_system_status)
 
     def publish_system_status(self):
-        # CPUとメモリ使用率を取得してパブリッシュ
         cpu_usage = psutil.cpu_percent(interval=None)
         memory_usage = psutil.virtual_memory().percent
         message = f"CPU: {cpu_usage:.1f}%, Memory: {memory_usage:.1f}%"
