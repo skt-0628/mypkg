@@ -1,0 +1,40 @@
+running egg_info
+creating build/mypkg/mypkg.egg-info
+writing build/mypkg/mypkg.egg-info/PKG-INFO
+writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build
+creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib
+creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/system_status.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/__init__.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+copying mypkg/listener.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+running install
+running install_lib
+creating /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/system_status.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/system_status.py to system_status.cpython-38.pyc
+byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+running install_data
+creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+copying resource/mypkg -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+copying launch/talk_listen.launch.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+running install_egg_info
+Copying build/mypkg/mypkg.egg-info to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+Installing system_status script to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+writing list of installed files to '/home/taku/ros2_ws/src/mypkg/build/mypkg/install.log'

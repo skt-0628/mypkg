@@ -1,0 +1,4 @@
+[console_scripts]
+listener = mypkg.listener:main
+system_status = mypkg.system_status:main
+

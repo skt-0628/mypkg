@@ -1,0 +1,42 @@
+[0.295s] Invoking command in '/home/taku/ros2_ws/src/mypkg': PYTHONPATH=/home/taku/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/taku/ros2_ws/src/mypkg/build/mypkg/build install --record /home/taku/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[0.388s] running egg_info
+[0.388s] creating build/mypkg/mypkg.egg-info
+[0.389s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.389s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.389s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.389s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.389s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.390s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.405s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.406s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.406s] running build
+[0.406s] running build_py
+[0.406s] creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build
+[0.406s] creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.406s] creating /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.406s] copying mypkg/system_status.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.406s] copying mypkg/__init__.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.406s] copying mypkg/listener.py -> /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.406s] running install
+[0.407s] running install_lib
+[0.407s] creating /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.407s] copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/system_status.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.407s] copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.407s] copying /home/taku/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.408s] byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/system_status.py to system_status.cpython-38.pyc
+[0.409s] byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[0.409s] byte-compiling /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.409s] running install_data
+[0.409s] creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.409s] creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.409s] creating /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.409s] copying resource/mypkg -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.410s] copying package.xml -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.410s] copying launch/talk_listen.launch.py -> /home/taku/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.410s] running install_egg_info
+[0.411s] Copying build/mypkg/mypkg.egg-info to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.411s] running install_scripts
+[0.421s] Installing listener script to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.421s] Installing system_status script to /home/taku/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.421s] writing list of installed files to '/home/taku/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.432s] Invoked command in '/home/taku/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/taku/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taku/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/taku/ros2_ws/src/mypkg/build/mypkg/build install --record /home/taku/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
